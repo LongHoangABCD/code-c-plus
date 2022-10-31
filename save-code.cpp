@@ -1,4 +1,4 @@
-// C�u 1
+// Câu 1
 #include <iostream>
 using namespace std;
 int main() {
@@ -6,7 +6,7 @@ int main() {
     cin >> a >> b;
     cout << a/b;
 }
-// C�u 2
+// Câu 2
 #include <iostream>
 #define PI 3.1459
 using namespace std;
@@ -15,19 +15,19 @@ int main() {
     cin >> r;
     cout << PI * 2 * r;
 }
-//C�u 3
+//Câu 3
 #include <iostream>
 using namespace std;
 int main() {
     int a, b;
     cin >> a >> b;
     if(a <= 0){
-        cout << "kh�ng c� k?t qu?";
+        cout << "không có kết quả";
     }else{
         cout << (10 - b)/a;
     }
 }
-//C�u 4
+//Câu 4
 #include <iostream>
 using namespace std;
 int KTSNT(int n) {
@@ -59,10 +59,10 @@ int main() {
             }
         }
     }else{
-        cout << "Kh�ng t�nh du?c k?t qu?";
+        cout << "Không tính được kết quả";
     }
 }
-// C�u 5
+// Câu 5
 #include <iostream>
 using namespace std;
 
@@ -80,10 +80,10 @@ int main() {
         }
         cout << tong;
     }else{
-        cout << "S? lu?ng ph?n t? kh�ng du?c �m" ;
+        cout << "Số lượng phần tử không được âm" ;
     }
 }
-// C�u 6
+// Câu 6
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -92,12 +92,12 @@ int main () {
     char str1[150];
     cin >> str1;
     if (strstr(str1, "hello")){
-        cout << "T�m th?y";
+        cout << "Tìm thấy";
     }else{
-        cout << "Kh�ng t�m th?y";
+        cout << "Không tìm thấy";
     }
 } 
-// C�u 7
+// Câu 7
 #include <iostream>
 using namespace std;
 
@@ -123,10 +123,10 @@ int main() {
            cout << a[k];
         }
     }else{
-        cout << "S? lu?ng ph?n t? kh�ng du?c �m" ;
+        cout << "Số lượng phần tử không được âm" ;
     }
 }
-// C�u 8
+// Câu 8
 #include <iostream>
 using namespace std;
 int ucln(int a, int b){
@@ -154,13 +154,13 @@ int main() {
     int a, b;
     cin >> a >>  b;
     if(a < 0 || b < 0) {
-        cout << "Nh?p sai d? b�i";
+        cout << "Nhập sai đề bài";
     }else{
         cout << ucln(a, b) << '\n';
         cout << bcnn(a, b);
     }
 }
-// C�u 9
+// Câu 9
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -180,7 +180,7 @@ int main (void) {
     }
     cout << string;
 }
-// C�u 10
+// Câu 10
 #include <iostream>
 using namespace std;
 int main() {
@@ -216,7 +216,7 @@ int main() {
         cout << "\n2: " << st_2;
         cout << "\n1: " << st_1;
     }else{
-        cout<< "S? ti?n kh�ng du?c �m";
+        cout<< "Số tiền không được âm";
     }
 }
 
